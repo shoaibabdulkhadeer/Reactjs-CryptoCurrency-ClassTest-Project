@@ -48,10 +48,7 @@ tr{
     border-bottom: 2pt solid rgb(72, 72, 72);
     padding: 55px;
     cursor: pointer;
-   
 }
-
-
 
 
 .number{
@@ -60,8 +57,7 @@ tr{
 
 Table tr td{
     padding: 10px;
-    margin: 5px 55px;
-    
+    margin: 5px 55px;  
 }
 
 
@@ -72,21 +68,23 @@ Table tr td{
 
 button {
     padding: 10px;
-    border: none;
+
     border-radius: 5px;
     cursor: pointer;
     margin: 0px 5px;
     border: 1px solid;
     width: 100px;
-}
-
-button:hover{
     background-color: transparent;
     color:  rgb(26, 240, 255);
     border: 1px solid rgb(26, 240, 255);
-    
+
 }
 
+button:hover{
+    background-color:  rgb(26, 240, 255);
+    color: black;
+   
+}
 
 .number {
     font-size: 25px;

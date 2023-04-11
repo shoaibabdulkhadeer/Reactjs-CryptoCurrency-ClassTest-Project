@@ -32,8 +32,6 @@ const CoinsItem = ({coins}) => {
              
               <td><button>Trade</button></td>
               </tr>
-            
-         
               </>
             )
            }) }

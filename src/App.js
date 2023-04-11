@@ -4,8 +4,6 @@ import axios from 'axios';
 import CoinsItem from './components/CoinsItem';
 
 
-
-
 function App() {
 
 const [coins,setCoins] = useState([])
@@ -17,13 +15,9 @@ useEffect(() => {
  })
 },[])
 
-
-
   return (
     <div className="App">
-
        <CoinsItem  coins = {coins}/>
-
     </div> 
   );
 }
