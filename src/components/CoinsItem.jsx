@@ -24,14 +24,14 @@ const CoinsItem = ({coins}) => {
             return (
                 <>
               <tr className='row'>
-                
+                 
+               <td><img src={coin.iconUrl} alt="" width={35}  style={{marginTop:"10px"}}/></td>  
               <td>{coin.name}</td>
               <td className='symbol'>{coin.symbol}</td>
               <td className='number'>${newNumber}</td>
               <td style={{color:"lightgreen"}}>{coin.change}%</td>
-              <td>${coin.price} </td>
+              <td>${coin.marketCap} </td>
               <td><button>Trade</button></td>
-              
               </tr>
             
          
