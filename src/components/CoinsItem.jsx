@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Coins.css'
 
+
 const CoinsItem = ({coins}) => {
 
   return (
@@ -18,19 +19,20 @@ const CoinsItem = ({coins}) => {
         <tbody >
            {coins.map((coin) => {
 
-         const myString = coin.price;
-        const newNumber = Number(myString).toFixed(2);
+   
+       
 
             return (
                 <>
               <tr className='row'>
                  
                <td><img src={coin.iconUrl} alt="" width={35}  style={{marginTop:"10px"}}/></td>  
-              <td>{coin.name}</td>
+              <td style={{color:coin.color}}>{coin.name}</td>
               <td className='symbol'>{coin.symbol}</td>
-              <td className='number'>${newNumber}</td>
+              <td className='number'>${Number(coin.price).toFixed(2)}</td>
               <td style={{color:"lightgreen"}}>{coin.change}%</td>
-              <td>${coin.marketCap} </td>
+              <td>${Number(coin.marketCap).toLocaleString()} </td>
+             
               <td><button>Trade</button></td>
               </tr>
             

@@ -52,6 +52,8 @@ tr{
 }
 
 
+
+
 .number{
     display: flex;
 }
@@ -69,8 +71,20 @@ Table tr td{
 
 
 button {
-    padding: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    margin: 0px 5px;
+    border: 1px solid;
+    width: 100px;
+}
+
+button:hover{
+    background-color: transparent;
+    color:  rgb(26, 240, 255);
+    border: 1px solid rgb(26, 240, 255);
+    
 }
 
 
