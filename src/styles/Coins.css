@@ -1,0 +1,80 @@
+.CoinsItem{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+
+}
+
+.bluehead{
+    color: rgb(27, 159, 220);;
+}
+
+
+.main h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+
+.para{
+    width: 600px;
+    text-align: center;
+}
+
+Table{
+    
+  
+  border-collapse: collapse;
+        width: 1000px;
+        font-size: 20px;
+}
+
+.border{
+    background-color: aqua;
+    height: 2px;
+    width: 200px;
+   
+}
+
+tr{
+    border-bottom: 2pt solid rgb(72, 72, 72);
+    padding: 55px;
+}
+
+
+.number{
+    display: flex;
+}
+
+Table tr td{
+    padding: 5px;
+    margin: 5px 55px;
+    
+}
+
+
+.symbol {
+    color: rgb(103, 101, 101);
+}
+
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.number {
+    font-size: 25px;
+}
+
