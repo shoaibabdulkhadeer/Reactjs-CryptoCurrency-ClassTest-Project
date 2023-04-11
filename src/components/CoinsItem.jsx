@@ -19,9 +19,6 @@ const CoinsItem = ({coins}) => {
         <tbody >
            {coins.map((coin) => {
 
-   
-       
-
             return (
                 <>
               <tr className='row'>
@@ -30,7 +27,7 @@ const CoinsItem = ({coins}) => {
               <td style={{color:coin.color}}>{coin.name}</td>
               <td className='symbol'>{coin.symbol}</td>
               <td className='number'>${Number(coin.price).toFixed(2)}</td>
-              <td style={{color:"lightgreen"}}>{coin.change}%</td>
+              <td style={coin.change > 0 ? {color:"green"} : {color : "red"}}>{coin.change}%</td>
               <td>${Number(coin.marketCap).toLocaleString()} </td>
              
               <td><button>Trade</button></td>

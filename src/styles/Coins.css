@@ -32,9 +32,7 @@
 }
 
 Table{
-    
-  
-  border-collapse: collapse;
+     border-collapse: collapse;
         width: 1000px;
         font-size: 20px;
 }
@@ -49,6 +47,7 @@ Table{
 tr{
     border-bottom: 2pt solid rgb(72, 72, 72);
     padding: 55px;
+    cursor: pointer;
 }
 
 
