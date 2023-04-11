@@ -8,7 +8,7 @@ const CoinsItem = ({coins}) => {
     <div className='CoinsItem'>
 
    <div className='main'>
-       <h2 className='bluehead'>SECURLY BUY,SELL,STORE,SEND YOUR CODE</h2>
+       <h2 className='bluehead'>SECURLY BUY,SELL,STORE,SEND and TRACK</h2>
         <h1> Buy crypto at true cost </h1>
         <p className='para'>Buy add sell 250+ cryptocurrencies with 20+ list cryptocurrencies
             using bank transfer to your credit/debit card
@@ -18,7 +18,7 @@ const CoinsItem = ({coins}) => {
         <table className=''>
         <tbody >
            {coins.map((coin) => {
-
+           
             return (
                 <>
               <tr className='row'>
